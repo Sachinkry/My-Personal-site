@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat&family=Sacramento&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 4.62rem;
+    font-family: 'Sacramento', cursive;
+    margin-top: 3.1rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: bold;
+    padding: 18px 0 ;
+}
+p{
+    font-weight: bold;
+}
+
+hr{
+    border-top: 4px dotted rgb(169, 169, 169);
+    width: 36px;
+    margin: auto
+}
+.pro{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    padding-top: 100px;
+
+}
+
+.top-container h1{
+
+}
+.top-container h2{
+    margin-bottom: 50px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 380px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 320px;
+    left: 380px;
+
+}
+
+.middle-container{
+
+}
+
+.profile{
+    margin: 100px 0;
+
+}
+.profile-img{
+    width: 8rem;
+    /* border-radius: 8px; */
+}
+.bottom-container{
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.team-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.startup-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    border-radius: 50%;
+
+}
+
+.footer-link{
+    color: #11999E;
+}
